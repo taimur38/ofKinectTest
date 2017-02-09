@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dev\of_v0.9.8_vs_release\addons\ofxKinectV2\src\ofxKinectCommonBridge.cpp">
+      <Filter>addons\ofxKinectV2\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{13fa1a1b-5cb6-4fbc-ad6a-36dfc61d67a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectV2">
+      <UniqueIdentifier>{10248a21-b2b8-4a3f-b81c-71cfcc5362b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectV2\src">
+      <UniqueIdentifier>{d8c11522-f061-4ca4-9a77-79b312747901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectV2\libs">
+      <UniqueIdentifier>{b398ece7-763b-42dc-bc19-f001de9a03b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectV2\libs\KCBv2">
+      <UniqueIdentifier>{ff192867-1bf3-479f-8891-7b49fc2c6d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectV2\libs\KCBv2\include">
+      <UniqueIdentifier>{cf949ffe-d2f0-41e9-a3fe-a372008890f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\dev\of_v0.9.8_vs_release\addons\ofxKinectV2\src\ofxKinectCommonBridge.h">
+      <Filter>addons\ofxKinectV2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\dev\of_v0.9.8_vs_release\addons\ofxKinectV2\libs\KCBv2\include\KCBv2Lib.h">
+      <Filter>addons\ofxKinectV2\libs\KCBv2\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
